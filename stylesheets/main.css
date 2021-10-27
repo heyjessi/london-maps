@@ -1,0 +1,380 @@
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+body {
+  margin: 0;
+}
+article, aside, footer, header, nav, section, figcaption, figure, main {
+  display: block;
+}
+figure {
+  margin: 1em 40px;
+}
+[hidden] {
+  display: none;
+}
+/* Columns and layout */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+#__bs_notify__ {
+  display: none !important;
+}
+main {
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: 1280px;
+  width: 100%;
+}
+.module {
+  margin: 8rem 0;
+  padding: 2rem;
+}
+.flex-grid {
+  display: flex;
+  justify-content: center;
+}
+.col {
+  flex: 1;
+  padding: 0.5rem;
+  position: relative;
+}
+.col:nth-child(n+1) {
+  margin-left: 0rem;
+}
+.col:last-child {
+  margin-right: 2rem;
+}
+.col.vertical-align {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  /* makes the text shift down, also makes the rows smaller */
+  /* flex-wrap: wrap; */
+}
+
+.acinfo {
+  flex-wrap: wrap;
+}
+
+.column {
+flex: 50%;
+}
+.single-column .col {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60rem;
+  width: 100%;
+}
+@media (max-width: 680px) {
+  .flex-grid {
+    display: block;
+  }
+  .single-column .col {
+    margin: 2rem;
+    width: auto;
+  }
+}
+/* Text styles */
+/* @font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata'), local('Inconsolata'), url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+} */
+
+/*!* made mirage *!*/
+/*@font-face { font-family: MADE Mirage; src: url('../MADE-Mirage-Reg.otf'); } */
+/*@font-face { font-family: MADE Mirage; font-weight: bold; src: url('../MADE-Mirage-Bold.otf');}*/
+/*@font-face { font-family: MADE Mirage Med; font-weight: bold; src: url('../MADE-Mirage-Med.otf');}*/
+
+@font-face { font-family: PPNeueWorld; src: url('../PPNeueWorld-Thin.otf'); }
+@font-face { font-family: PPNeueWorld; font-weight: bold; src: url('../PPNeueWorld-SuperCondensedLight.ttf');}
+@font-face { font-family: PPNeueWorld Med; font-weight: bold; src: url('../PPNeueWorld-CondensedRegular.otf');}
+
+@font-face { font-family: PPObjectSans; src: url('../PPObjectSans-Regular.otf'); }
+@font-face { font-family: PPObjectSans; font-weight: bold; src: url('../PPObjectSans-Heavy.otf');}
+@font-face { font-family: PPObjectSans Itals; src: url('../PPObjectSans-Slanted.otf');}
+
+/* inconsolata */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+html {
+  background: #F9FCFF;
+  color: #333;
+  font-size: 10px;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-size: 1.8rem;
+}
+
+h2, h3 {
+  margin-bottom: 0;
+  font-family:'PPNeueWorld', Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+  font-size: 3rem;
+  font-family:'PPNeueWorld', Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+h4, h5 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-family:'PPNeueWorld', Georgia, 'Times New Roman', Times, serif;
+}
+p, li {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-family:'PPNeueWorld', Georgia, 'Times New Roman', Times, serif;
+}
+
+.quote {
+  font-family: 'PPObjectSans Itals', Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.3em;
+  color: #739db7;
+}
+
+.med {
+  font-family:'PPNeueWorld Med', Georgia, 'Times New Roman', Times, serif;
+}
+
+.mirage {
+  font-family:'PPNeueWorld', Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+.mirage2 {
+  font-family:'PPNeueWorld Med', Georgia, 'Times New Roman', Times, serif;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.blurb li {
+  font-family: 'PPObjectSans', 'Avenir-Next', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blurb {
+  font-family: 'PPObjectSans', 'Avenir-Next', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+  font-weight: bold;
+  color:  #739db7;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color:  #aaa;
+}
+footer {
+  background: #333;
+  color: #fff;
+  padding: 6rem;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  display: inline-block;
+  margin: 0;
+}
+footer li::before {
+  content: "\2022 \A0";
+}
+footer li:first-child::before {
+  content: "";
+}
+/* Custom styling for the content */
+.rocky-image {
+  width: 100%;
+  max-width: 54rem;
+}
+.badge {
+  border-radius: 50%;
+  background: green;
+  display: flex;
+  flex-shrink: 0;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 10rem;
+  width: 10rem;
+  position: relative;
+  box-shadow: 0 .2rem .1rem .1rem rgba(0,0,0,0.2);
+}
+.badge::before {
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 2.5px;
+  right: 2.5px;
+  bottom: 2.5px;
+  left: 2.5px;
+  border: 6px solid #fff;
+}
+.badge.first {
+  background: red;
+}
+.badge.third {
+  background: yellow;
+}
+.rocky-badge {
+  height: 70px;
+  z-index: 10;
+}
+.rocky-image-small {
+  width: 150%;
+  margin-left: -2rem;
+}
+.options {
+  margin: 8em 0;
+}
+.options .option {
+  border-radius: .2em;
+  border: 1px solid transparent;
+}
+.options .badge, .options h2, .options p {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+}
+.options .more-info {
+  left: 10%;
+  right: 10%;
+}
+.options .call-to-action {
+  display: inline-block;
+  margin: 1em auto;
+}
+.options h2 {
+  top: 5em;
+}
+.options p {
+  top: 7em;
+  max-width: 80%;
+}
+.options .col {
+  height: 18em;
+  margin: 2em 0;
+  text-align: center;
+  width: 20em;
+}
+.options .col p:nth-child(2) {
+  flex-grow: 1;
+}
+.section-title {
+  text-align: center;
+}
+.button {
+  background: #269300;
+  border-radius: .25em;
+  color: #fff;
+  display: inline-block;
+  padding: .15em .15em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+html, body {
+  background: #F1F6FA;
+  color: #aaa;
+}
+
+.content {
+  margin: 10em auto;
+  max-width: 740px;
+  width: 80%;
+}
+
+.lowell {
+  background-color: gray;
+  padding:15px;
+  opacity: 70%;
+}
+
+
+p {
+  font-size: 1.6em;
+  margin: 6em auto;
+}
+
+/* loader */
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid gray;
+  border-radius: 50%;
+  border-top: 16px solid #e0c2ff;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
