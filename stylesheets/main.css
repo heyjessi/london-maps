@@ -157,6 +157,10 @@ p, li {
   color: #739db7;
 }
 
+.itals {
+  font-family: 'PPObjectSans Itals', Georgia, 'Times New Roman', Times, serif;
+}
+
 .med {
   font-family:'PPNeueWorld Med', Georgia, 'Times New Roman', Times, serif;
 }
