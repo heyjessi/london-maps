@@ -27,7 +27,7 @@ header {
 header:after {
   background: -webkit-linear-gradient(top, rgba(0,0,0,0), #F1F6FA);
   background: linear-gradient(to bottom, rgba(0,0,0,0), #F1F6FA);
-    bottom: 0;
+    bottom: -30;
   content: "";
     left: 0;
   position: absolute;
