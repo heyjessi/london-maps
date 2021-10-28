@@ -2,8 +2,8 @@ header {
   /* -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; */
-  /* background: #F1F6FA url(../images/london4.jpg) center no-repeat; */
-  /* background-size: 100% auto;
+  /* background: #F1F6FA url(../images/london4.jpg) center no-repeat;
+  background-size: 100% auto;
   display: -webkit-box;
   display: -ms-flexbox; */
   
@@ -15,6 +15,7 @@ header {
   /* overflow: hidden; */
   /* position: relative; */
   width: 100vw;
+  object-fit: cover;
 }
 
 .header_img{
